@@ -10,6 +10,12 @@ class Shoe
      BRANDS == BRANDS.uniq!
 end
 
+def cobble
+  
+  
+  
+  
+  
 def shoe_brand(brand)
   @shoe_brand=shoe_brand
 end
