@@ -22,7 +22,7 @@ def cobble
   puts "Your shoe is as good as new!"
 end
 
-shoe.condition= "old"
+shoe.condition= old
 shoe.cobble
 
 end
