@@ -6,7 +6,9 @@ class Shoe
     @shoe= shoe
 end
 
-
+def shoe_brand(Nike)
+  @shoe_brand=shoe_brand
+end
 
 def shoe_condition(new)
   @new=new
