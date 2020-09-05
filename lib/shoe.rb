@@ -1,4 +1,5 @@
 class Shoe
+  
    attr_accessor :color, :size, :material,:condition
    attr_reader :brand
    
@@ -12,28 +13,13 @@ end
 
 def cobble
   self.condition = "new"
-  
-  
-  
-  
-def shoe_brand(brand)
-  @shoe_brand=shoe_brand
-end
-
-def shoe_condition(new)
-  @new=new
-end
-
-def new
-  @new
-end
-
-def cobble
   puts "Your shoe is as good as new!"
 end
+  
+  
+  
+  
 
-
-end
 
 # it 'makes the shoe\'s condition new' do
 #       shoe.condition = "old"
