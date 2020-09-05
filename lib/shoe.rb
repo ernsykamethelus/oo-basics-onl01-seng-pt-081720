@@ -2,7 +2,7 @@ class Shoe
    attr_accessor :brand, :color, :size, :material,:condition, :cobble
    attr_reader :shoe
   
-  def initialize(shoe)
+  def initialize(shoe, condition)
     @shoe= shoe
 end
 
